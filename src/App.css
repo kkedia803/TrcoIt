@@ -1,0 +1,134 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+
+.margin-top{
+  margin-top: 20px;
+}
+
+.margin-bottom{
+  margin-bottom: 20px;
+}
+
+.img-trips{
+  width: 100%;
+  height: 27%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.img-int-trips{
+  width: 100%;
+  height: 35%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.feature-container{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+
+.backpack-text{
+  font-size: large;
+}
+
+.backpack-title{
+  font-size: x-large;
+}
+
+.int-title{
+  font-size: x-large;
+}
+
+.int-text{
+  font-size: large;
+}
+
+.services-container{
+  padding: 3% 5% 3% 5%;
+  background-color: rgb(4, 4, 41);
+}
+
+.services-parent{
+  padding: 0 !important;
+}
+
+.weekend-getaways{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio-items img {
+  width: 98%; /* Ensures the image fills the container */
+  height: 250px; /* Set a fixed height, adjust as needed */
+  object-fit: cover; /* Maintains aspect ratio while filling the set dimensions */
+  margin: 6px;
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  /* display: flex; */
+}
+
+.bg{
+  background-image: url(https://roshankashmir.net/wp-content/uploads/2024/01/snow.jpg);
+  height: 95vh; 
+  position: relative;
+  /* background-image: url(https://img.veenaworld.com/wp-content/uploads/2023/03/Top-10-Snow-Places-in-India-for-You-to-Visit-2023.jpg); */
+}
+
+.overlay {
+  position: absolute; /* Positions the overlay over the background */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures it covers the full width of the container */
+  height: 100%; /* Ensures it covers the full height of the container */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity for the overlay */
+  z-index: 1; /* Ensures overlay stays above the background image */
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.footer-content{
+  font-size: x-large;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pointer {
+  cursor: pointer; /* Changes cursor to pointer when hovering */
+  text-align: center; /* Centers the content inside */
+}
+
+.pointer:hover .img-trips {
+  transform: scale(1.1); /* Increases image size by 10% on hover */
+}
+
+
+.backpack-title, .backpack-text {
+  margin-top: 10px; /* Adds space between the image and text */
+}
+
+

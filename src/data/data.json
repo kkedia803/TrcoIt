@@ -1,0 +1,151 @@
+{
+  "Header": {
+    "title": "Traco It",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Neemrana",
+      "largeImage": "https://res.cloudinary.com/simplotel/image/upload/q_80,fl_progressive,w_1500,f_auto,c_fit/neemrana-fort-palace---15th-century-delhi-jaipur-highway/Facade_Premises__Neemrana_Fort_Palace__palace_hotel_in_Rajasthan_14_4_d55b91",
+      "smallImage": "https://res.cloudinary.com/simplotel/image/upload/q_80,fl_progressive,w_1500,f_auto,c_fit/neemrana-fort-palace---15th-century-delhi-jaipur-highway/Facade_Premises__Neemrana_Fort_Palace__palace_hotel_in_Rajasthan_14_4_d55b91"
+    },
+    {
+      "title": "Lansdowne",
+      "largeImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lansdowne_Landscape.jpg/1200px-Lansdowne_Landscape.jpg",
+      "smallImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lansdowne_Landscape.jpg/1200px-Lansdowne_Landscape.jpg"
+    },
+    {
+      "title": "Kasol",
+      "largeImage": "https://lazymonkadventure.com/wp-content/uploads/2021/10/Kasol-Kheerganga-Trek-3-scaled.jpg",
+      "smallImage": "https://lazymonkadventure.com/wp-content/uploads/2021/10/Kasol-Kheerganga-Trek-3-scaled.jpg"
+    },
+    {
+      "title": "Vrindavan",
+      "largeImage": "https://s3.india.com/wp-content/uploads/2024/03/Feature-Image_-Vrindavan.jpg",
+      "smallImage": "https://s3.india.com/wp-content/uploads/2024/03/Feature-Image_-Vrindavan.jpg"
+    },
+    {
+      "title": "Rishikesh",
+      "largeImage": "https://wandersky.in/wp-content/uploads/2023/03/laxman-jhula-rishikesh.jpg",
+      "smallImage": "https://wandersky.in/wp-content/uploads/2023/03/laxman-jhula-rishikesh.jpg"
+    },
+    {
+      "title": "Jim Corbett National Park",
+      "largeImage": "https://www.thehosteller.com/_next/image/?url=https%3A%2F%2Fstatic.thehosteller.com%2Fhostel%2Fimages%2Fimage.jpg%2Fimage-1725447883008.jpg&w=2048&q=75",
+      "smallImage": "https://www.thehosteller.com/_next/image/?url=https%3A%2F%2Fstatic.thehosteller.com%2Fhostel%2Fimages%2Fimage.jpg%2Fimage-1725447883008.jpg&w=2048&q=75"
+    },
+    {
+      "title": "Bhangarh",
+      "largeImage": "https://nanchi.blog/wp-content/uploads/2020/03/market-ruins-bhangarh-fort-jaipur-rajasthan.jpg?w=1600&h=768&crop=1",
+      "smallImage": "https://nanchi.blog/wp-content/uploads/2020/03/market-ruins-bhangarh-fort-jaipur-rajasthan.jpg?w=1600&h=768&crop=1"
+    },
+    {
+      "title": "Bhimtal",
+      "largeImage": "https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FPlaces_to_Visit_in_Bhimtal2_a87eb87f57.webp&w=3840&q=50",
+      "smallImage": "https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FPlaces_to_Visit_in_Bhimtal2_a87eb87f57.webp&w=3840&q=50"
+    },
+    {
+      "title": "Agra",
+      "largeImage": "https://boutindia.s3.us-east-2.amazonaws.com/images/blog/images/2023-07-21-13-58-37-64ba41b586366-Agra-The-Glimpse-of-Mughal-Kingdom.jpg",
+      "smallImage": "https://boutindia.s3.us-east-2.amazonaws.com/images/blog/images/2023-07-21-13-58-37-64ba41b586366-Agra-The-Glimpse-of-Mughal-Kingdom.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "image": "https://st4.depositphotos.com/2115371/37875/i/450/depositphotos_378759032-stock-photo-dubai-uae-march-2020-burj.jpg",
+      "name": "Dubai",
+      "text": "Experience luxury, iconic skyscrapers, thrilling desert safaris, and world-class shopping in the dazzling city of Dubai."
+    },
+    {
+      "image": "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/06/27/008c39e51aae8e2d2cd5e7d57fb71d5a_1000x1000.jpg",
+      "name": "Thailand",
+      "text": "Discover vibrant culture, pristine beaches, bustling markets, and mouthwatering cuisine in Thailand—your ultimate tropical getaway."
+    },
+    {
+      "image": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",
+      "name": "France",
+      "text": "Indulge in romance, art, exquisite cuisine, and breathtaking landmarks like the Eiffel Tower in the enchanting heart of France."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com"
+  },
+  "Features": [
+    {
+      "image": "https://kplexpeditions.com/wp-content/uploads/2023/09/Spiti-Winter-Trip-Himachal-Prade.jpg.webp",
+      "title": "Manali",
+      "text": "Breathtaking landscapes, adventure-filled treks, and cozy mountain escapes—Manali is a paradise for nature lovers."
+    },
+    {
+      "image": "https://www.india.com/wp-content/uploads/2024/06/Calangute-Beach-1.jpg",
+      "title": "Goa",
+      "text": "Sun-kissed beaches, vibrant nightlife, thrilling watersports—Goa promises endless fun and tropical vibes."
+    },
+    {
+      "image": "https://s3.india.com/wp-content/uploads/2024/08/Kerala-Travel-Guide_-Discover-Gods-Own-Country-On-A-Budget.jpg",
+      "title": "Kerela",
+      "text": "Serene backwaters, lush greenery, exotic wildlife—experience God's Own Country, Kerala, for unmatched tranquility."
+    },
+    {
+      "image": "https://www.jcrcab.com/wp-content/uploads/2020/08/rajasthan-jaipur-148046451622-orijgp.jpg",
+      "title": "Jaipur",
+      "text": "Explore royal palaces, colorful bazaars, and timeless heritage in the majestic Pink City of Jaipur."
+    }
+  ]
+}
