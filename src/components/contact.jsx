@@ -43,8 +43,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-          </p>
+          
         </div>
       </div>
     </div>

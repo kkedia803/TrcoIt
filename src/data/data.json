@@ -139,13 +139,31 @@
     },
     {
       "image": "https://s3.india.com/wp-content/uploads/2024/08/Kerala-Travel-Guide_-Discover-Gods-Own-Country-On-A-Budget.jpg",
-      "title": "Kerela",
+      "title": "Kerala",
       "text": "Serene backwaters, lush greenery, exotic wildlife—experience God's Own Country, Kerala, for unmatched tranquility."
     },
     {
       "image": "https://www.jcrcab.com/wp-content/uploads/2020/08/rajasthan-jaipur-148046451622-orijgp.jpg",
       "title": "Jaipur",
       "text": "Explore royal palaces, colorful bazaars, and timeless heritage in the majestic Pink City of Jaipur."
+    }
+  ],
+  "Travel": [
+    {
+      "image": "https://t3.ftcdn.net/jpg/09/96/15/04/360_F_996150455_x4C0Lco0u8VZnc3G5k3zsx8ADVz03M34.jpg",
+      "title": "Train"
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/b/plane-sunset-concept-conceptual-black-airplane-aircraft-silhouette-flying-over-sky-sunrise-background-36378619.jpg",
+      "title": "Flight"
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/b/outdoor-front-view-luxury-hotel-building-entrance-night-illuminated-glowing-light-text-sign-outdoor-front-view-331271884.jpg",
+      "title": "Hotels"
+    },
+    {
+      "image": "https://st2.depositphotos.com/1152339/10566/i/450/depositphotos_105661600-stock-photo-tourism-concept-bus-in-grunge.jpg",
+      "title": "Bus"
     }
   ]
 }
