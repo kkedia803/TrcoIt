@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link"; // Use HashLink for route-based scrolling
 
 export const Navigation = (props) => {
   return (
@@ -11,51 +12,42 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             Traco It
-          </a>{" "}
+          </a>
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
+              <Link smooth to="/#about" className="page-scroll">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#features" className="page-scroll">
+              <Link smooth to="/#features" className="page-scroll">
                 BackPack Trips
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                International Trips
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
+              <Link smooth to="/#portfolio" className="page-scroll">
                 Getaways
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <Link smooth to="/#testimonials" className="page-scroll">
                 Testimonials
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <Link smooth to="/#contact" className="page-scroll">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
