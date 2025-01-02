@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
+import { IoIosPin } from "react-icons/io";
 
 export const Final = () => {
     const imageMapping = {
@@ -74,7 +75,7 @@ export const Final = () => {
 
             {/* Heading */}
             <div className="package-heading">
-                <h1 className="placeTitle">{title} <span className="dates">(10-17 Jan)</span></h1>
+                <h1 className="placeTitle">{title} <span className="dates">(10-15 Jan)</span></h1>
             </div>
 
             {/* Room Details */}
@@ -111,7 +112,7 @@ export const Final = () => {
                         onChange={handleNumTouristsChange}
                         className="tourist-input"
                     />
-                    <button onClick={handleCheckPrice} className="check-price-button">Check Price</button>
+                    <button onClick={handleCheckPrice} className=" add-name-button">Check Price</button>
                 </div>
                 <div className="name-input">
                     <label htmlFor="touristName" className="list">Enter Name: </label>
@@ -145,12 +146,12 @@ export const Final = () => {
             <div className="package-terms">
                 <h2 className="head">Itinerary</h2>
                 <ul>
-                    <li className="list">Day 1 - Overnight journey from Delhi to Manali.</li>
-                    <li className="list">Day 2 - Arrival at Manali and local sightseeing.</li>
-                    <li className="list">Day 3 - Manali-Sissu-Solang Valley | Overnight Stay</li>
-                    <li className="list">Day 4 - Manali-Kullu Valley-Kasol</li>
-                    <li className="list">Day 5 - Kasol and Manikaran Sahib | Departure to Delhi</li>
-                    <li className="list">Day 6 - Arrival at Delhi by Morning.</li>
+                    <div className="list"><IoIosPin className="pin" /> - Overnight journey from Delhi to Manali.</div>
+                    <div className="list"><IoIosPin className="pin" /> - Arrival at Manali and local sightseeing.</div>
+                    <div className="list"><IoIosPin className="pin" /> - Manali-Sissu-Solang Valley | Overnight Stay</div>
+                    <div className="list"><IoIosPin className="pin" /> - Manali-Kullu Valley-Kasol</div>
+                    <div className="list"><IoIosPin className="pin" /> - Kasol and Manikaran Sahib | Departure to Delhi</div>
+                    <div className="list"><IoIosPin className="pin" /> - Arrival at Delhi by Morning.</div>
                 </ul>
             </div>
 

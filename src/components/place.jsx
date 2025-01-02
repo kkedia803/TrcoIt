@@ -13,6 +13,13 @@ export const Place = () => {
         Jaipur: "Hawa Mahal, Jantar Mantar, Jal Mahal, Jaigarh Fort"
     }
 
+    const briefItinerary = {
+        Manali: "2D-Manali, 1D-Kullu, 2D-Kasol",
+        Goa: "2D-North Goa, 2D-South Goa, 1D-Panjim",
+        Kerala: "2D-Varkala, 1D-Munnar, 2D-Beaches",
+        Jaipur: "1D-City, 2D-Desert, 2D-Mahals" 
+    }
+
     const { title } = useParams();
 
     const navigate = useNavigate();
@@ -31,6 +38,7 @@ export const Place = () => {
                     name: "Snow Adventure",
                     seller: "TravelGuru",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Experience the thrill of snow-covered peaks with activities like skiing and snowboarding.",
                     price: "₹12,000",
                     rating: 4
@@ -40,6 +48,7 @@ export const Place = () => {
                     name: "Luxury Stay",
                     seller: "Luxury Tours",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "A luxurious 3-night stay at a resort nestled in the mountains, complete with spa services.",
                     price: "₹25,000",
                     rating: 5
@@ -49,6 +58,7 @@ export const Place = () => {
                     name: "Trekking Expedition",
                     seller: "MountainQuest",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "A 2-day guided trek to Beas Kund with campfire and storytelling sessions.",
                     price: "₹8,000",
                     rating: 4
@@ -58,6 +68,7 @@ export const Place = () => {
                     name: "River Rafting",
                     seller: "AquaAdventures",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Enjoy white water rafting in the Beas River with professional guides.",
                     price: "₹6,500",
                     rating: 4
@@ -67,6 +78,7 @@ export const Place = () => {
                     name: "Romantic Getaway",
                     seller: "LoveNest Travels",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "A romantic package featuring candlelight dinners, couple spa, and scenic drives.",
                     price: "₹20,000",
                     rating: 5
@@ -81,6 +93,7 @@ export const Place = () => {
                     name: "Backwater Cruise",
                     seller: "Houseboat Holidays",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "A serene houseboat stay in Alleppey backwaters with authentic Kerala cuisine.",
                     price: "₹30,000",
                     rating: 5
@@ -90,6 +103,7 @@ export const Place = () => {
                     name: "Ayurvedic Spa",
                     seller: "Wellness Retreats",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Experience rejuvenating Ayurvedic therapies in the heart of Kerala.",
                     price: "₹18,000",
                     rating: 4
@@ -99,6 +113,7 @@ export const Place = () => {
                     name: "Wildlife Safari",
                     seller: "NatureTrails",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Explore Kerala's rich wildlife and forests with an exciting safari tour.",
                     price: "₹12,000",
                     rating: 5
@@ -108,6 +123,7 @@ export const Place = () => {
                     name: "Beach Resort Stay",
                     seller: "Coastal Getaways",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Relax at a luxurious beach resort in Varkala, perfect for unwinding and exploring the coast.",
                     price: "₹22,000",
                     rating: 4
@@ -122,6 +138,7 @@ export const Place = () => {
                     name: "Beach Paradise",
                     seller: "GoaEscape",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Relax and unwind at serene beaches in North Goa.",
                     price: "₹15,000",
                     rating: 5
@@ -131,6 +148,7 @@ export const Place = () => {
                     name: "Party Weekend",
                     seller: "FunVibes",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Enjoy the best party spots in Goa and dance the night away.",
                     price: "₹10,000",
                     rating: 4
@@ -140,6 +158,7 @@ export const Place = () => {
                     name: "Heritage Tour",
                     seller: "CultureTrips",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Explore the rich cultural heritage of Goa through its churches and forts.",
                     price: "₹18,000",
                     rating: 5
@@ -149,6 +168,7 @@ export const Place = () => {
                     name: "Water Sports Adventure",
                     seller: "Aqua Adventures",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Indulge in thrilling water sports like parasailing and jet skiing in South Goa.",
                     price: "₹12,000",
                     rating: 4
@@ -163,6 +183,7 @@ export const Place = () => {
                     name: "Royal Palace Tour",
                     seller: "Heritage Tours",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Explore the majestic Amber Fort and City Palace in Jaipur.",
                     price: "₹10,000",
                     rating: 5
@@ -172,6 +193,7 @@ export const Place = () => {
                     name: "Desert Safari",
                     seller: "Rajasthan Expeditions",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Experience the thrill of a jeep safari through the Thar Desert.",
                     price: "₹8,000",
                     rating: 4,
@@ -181,6 +203,7 @@ export const Place = () => {
                     name: "Cultural Tour",
                     seller: "Jaipur Journeys",
                     spots: touristPlaces[title],
+                    brief: briefItinerary[title],
                     description: "Discover the cultural heritage of Jaipur through its colorful markets and historical sites.",
                     price: "₹12,000",
                     rating: 5
@@ -217,11 +240,12 @@ export const Place = () => {
                                 <h3 className="pkgName">{pkg.name}</h3>
                                 <p className="seller"><strong>Seller:</strong> {pkg.seller}</p>
                                 <p className="seller"><strong>Spots:</strong> {pkg.spots}</p>
+                                <p className="seller"><strong>Brief Itinerary:</strong> {pkg.brief}</p>
                                 <p className="review">
                                     <strong>Seller Review:</strong> {renderStars(pkg.rating)}
                                 </p>
                                 <p className="desc">{pkg.description}</p>
-                                <p className="price"><strong>Price:</strong> {pkg.price}</p>
+                                <p className="price"><strong>Price:</strong> <span className="price">{pkg.price}</span></p>
                             </div>
                         </div>
                     ))
