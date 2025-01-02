@@ -132,16 +132,6 @@ export const Final = () => {
                 </ul>
             </div>
 
-            {/* Terms and Conditions */}
-            <div className="package-terms">
-                <h2 className="head">Terms and Conditions</h2>
-                <ul>
-                    <li className="list">50% cancellation fee if canceled within 7 days of travel.</li>
-                    <li className="list">Package is non-refundable after booking.</li>
-                    <li className="list">Room upgrades are subject to availability.</li>
-                </ul>
-            </div>
-
             {/* itinerary */}
             <div className="package-terms">
                 <h2 className="head">Itinerary</h2>
@@ -152,6 +142,16 @@ export const Final = () => {
                     <div className="list"><IoIosPin className="pin" /> - Manali-Kullu Valley-Kasol</div>
                     <div className="list"><IoIosPin className="pin" /> - Kasol and Manikaran Sahib | Departure to Delhi</div>
                     <div className="list"><IoIosPin className="pin" /> - Arrival at Delhi by Morning.</div>
+                </ul>
+            </div>
+
+            {/* Terms and Conditions */}
+            <div className="package-terms">
+                <h2 className="head">Terms and Conditions</h2>
+                <ul>
+                    <li className="list">50% cancellation fee if canceled within 7 days of travel.</li>
+                    <li className="list">Package is non-refundable after booking.</li>
+                    <li className="list">Room upgrades are subject to availability.</li>
                 </ul>
             </div>
 
