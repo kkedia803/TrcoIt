@@ -62,7 +62,7 @@ export const Final = () => {
             {/* Trip Info Boxes */}
             <div className="trip-info-container">
                 <div className="trip-info-box">
-                    <h4>6D/7N</h4>
+                    <h4>5N/6D</h4>
                 </div>
                 <div className="trip-info-box">
                     <h4>Group Trip</h4>
@@ -138,6 +138,19 @@ export const Final = () => {
                     <li className="list">50% cancellation fee if canceled within 7 days of travel.</li>
                     <li className="list">Package is non-refundable after booking.</li>
                     <li className="list">Room upgrades are subject to availability.</li>
+                </ul>
+            </div>
+
+            {/* itinerary */}
+            <div className="package-terms">
+                <h2 className="head">Itinerary</h2>
+                <ul>
+                    <li className="list">Day 1 - Overnight journey from Delhi to Manali.</li>
+                    <li className="list">Day 2 - Arrival at Manali and local sightseeing.</li>
+                    <li className="list">Day 3 - Manali-Sissu-Solang Valley | Overnight Stay</li>
+                    <li className="list">Day 4 - Manali-Kullu Valley-Kasol</li>
+                    <li className="list">Day 5 - Kasol and Manikaran Sahib | Departure to Delhi</li>
+                    <li className="list">Day 6 - Arrival at Delhi by Morning.</li>
                 </ul>
             </div>
 

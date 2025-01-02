@@ -4,6 +4,7 @@ import { Header } from "../components/header";
 import { Features } from "../components/features";
 import { About } from "../components/about";
 import { Services } from "../components/services";
+import { Travel } from "../components/travel";
 import { Gallery } from "../components/gallery";
 import { Testimonials } from "../components/testimonials";
 import { Contact } from "../components/contact";
@@ -52,6 +53,9 @@ const Home = () => {
       <Navigation />
       <Element name="header">
         <Header data={landingPageData.Header} />
+      </Element>
+      <Element name="travel">
+        <Travel data={landingPageData.Travel} />
       </Element>
       <Element name="features">
         <Features data={landingPageData.Features} />
