@@ -242,7 +242,7 @@ export const Place = () => {
                                 <p className="seller"><strong>Spots:</strong> {pkg.spots}</p>
                                 <p className="seller"><strong>Brief Itinerary:</strong> {pkg.brief}</p>
                                 <p className="review">
-                                    <strong>Seller Review:</strong> {renderStars(pkg.rating)}
+                                    <strong>Seller Review:</strong><span className="stars">{renderStars(pkg.rating)}</span>
                                 </p>
                                 <p className="desc">{pkg.description}</p>
                                 <p className="price"><strong>Price:</strong> <span className="price">{pkg.price}</span></p>

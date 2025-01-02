@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Home from "./pages/home"
 import Booking from "./pages/booking"
 import Details from "./pages/details"
-import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
