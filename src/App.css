@@ -425,3 +425,61 @@ li {
 .stars{
   color: rgb(208, 180, 19);
 }
+
+.beta {
+  font-size: 1rem; /* Smaller font size */
+  font-weight: bold;
+  color: #ffffff; /* White text */
+  background-color: #ff5733; /* Bright orange/red background to draw attention */
+  padding: 0.2rem 0.5rem; /* Padding for badge-like look */
+  border-radius: 0.3rem; /* Rounded corners */
+  text-transform: uppercase; /* All caps for emphasis */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  animation: betaPulse 1.5s infinite; /* Pulsing animation for visibility */
+}
+@keyframes betaPulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    padding: 0.2rem 0.5rem;
+  }
+  25% {
+    transform: scale(1.2);
+    opacity: 0.8;
+    padding: 0.25rem 0.6rem;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.6;
+    padding: 0.3rem 0.7rem;
+  }
+  75% {
+    transform: scale(1.2);
+    opacity: 0.8;
+    padding: 0.25rem 0.6rem;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    padding: 0.2rem 0.5rem;
+  }
+}
+.navbar {
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Vertical alignment of items */
+  gap: 0.5rem; /* Spacing between items */
+}
+
+.headingColumn {
+  display: flex; /* Flexbox layout for horizontal alignment */
+  align-items: center; /* Vertically align items */
+  gap: 0.5rem; /* Spacing between logo, text, and Beta tag */
+}
+
+/* Style for the logo */
+.logo img {
+  height: 40px; /* Set a fixed height for the logo */
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space around the image */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}

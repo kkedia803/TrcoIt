@@ -17,9 +17,18 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Traco It
-          </a>
+          <div className="headingColumn">
+            <span className="logo">
+              <img src="/img/logo.jpg" alt="Traco It Logo" />
+            </span>
+            <a className="navbar-brand page-scroll" href="#page-top">
+              Traco It
+            </a>
+            <span className="page-scroll beta">
+              Beta
+            </span>
+          </div>
+
         </div>
 
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
